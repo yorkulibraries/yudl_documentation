@@ -110,7 +110,7 @@
 | Display label | |
 | Note | |
 
-| XPath      | ``name/affiliation` |
+| XPath      | `name/affiliation` |
 |------------|-|
 | Form label | Affiliation |
 | Field type | Text field |
