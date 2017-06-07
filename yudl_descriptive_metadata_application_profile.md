@@ -681,8 +681,7 @@ Example: 2007-054 / 025 (17) |
 |------------|:------------------|
 | Form label | Identifier Other  |
 | Field type | Text field        |
-| Help text  | <p>Occasionally with significant events, the Telegram will have multiple envelopes. In this case, note which envelope this is.</p>
-<p><strong>Example:</strong> Envelope 1 of 3.</p> |
+| Help text  | <p>Occasionally with significant events, the Telegram will have multiple envelopes. In this case, note which envelope this is.</p> <strong>Example:</strong> Envelope 1 of 3.</p> |
 | Obligation | Optional (Minimal: 0, Maximum: 1) |
 | Solr field |  |
 | Display label |          |
