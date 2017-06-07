@@ -701,11 +701,7 @@ Example: 2007-054 / 025 (17) |
 |------------|:------------------|
 | Form label | Title            |
 | Field type | Text area   |
-| Help text  | For PDF, always use the title written on the envelope that contains the negative. Use a space colon space to separate information as it appears on the envelope. If there is a NOT USED or COPY stamped on your envelope, enter [not used] or [copy] in square brackets one space after your title. i.e. Colonial Tavern : Renovation : Waitress Contest [copy]
-<br/><br />
-For TIF, if you are a Bib Services student enter: [to be supplied]
-<br /><br />
-For TIF, if you are an Archives/Bib Services staff member create a title based on the content of the TIF image file. |
+| Help text  | For PDF, always use the title written on the envelope that contains the negative. Use a space colon space to separate information as it appears on the envelope. If there is a NOT USED or COPY stamped on your envelope, enter [not used] or [copy] in square brackets one space after your title. i.e. Colonial Tavern : Renovation : Waitress Contest [copy] <br/><br /> For TIF, if you are a Bib Services student enter: [to be supplied] <br /><br /> For TIF, if you are an Archives/Bib Services staff member create a title based on the content of the TIF image file. |
 | Obligation | Required (Minimal: 0, Maximum: 1) |
 | Solr field |  |
 | Display label |          |
@@ -725,10 +721,7 @@ For TIF, if you are an Archives/Bib Services staff member create a title based o
 |------------|:------------------|
 | Form label | Description       |
 | Field type | Text area      |
-| Help text  | <p>For PDF, describe the contents of the assignment envelope, including any loose sheets of photographer instructions, the number of contact sheets and the assignment envelope's title, i.e. "File consists of front and back of negative envelope, front and back of loose sheet, and five contact sheets. Assignment: Dirty Shames : Singing Group."</p>
-
-<p>For TIF, if you are a Bib Services student do not enter any information.</p>
-<p>For TIF, if you are an Archives/Bib Services staff member, and have additional details to add in terms of the quality of the image (under exposed/over exposed), the state of the image (suffering from severe vinegar syndrome, smudged by finger print) or additional contextual information, please note it here.</p> |
+| Help text  | <p>For PDF, describe the contents of the assignment envelope, including any loose sheets of photographer instructions, the number of contact sheets and the assignment envelope's title, i.e. "File consists of front and back of negative envelope, front and back of loose sheet, and five contact sheets. Assignment: Dirty Shames : Singing Group."</p> <p>For TIF, if you are a Bib Services student do not enter any information.</p> <p>For TIF, if you are an Archives/Bib Services staff member, and have additional details to add in terms of the quality of the image (under exposed/over exposed), the state of the image (suffering from severe vinegar syndrome, smudged by finger print) or additional contextual information, please note it here.</p> |
 | Obligation | Optional (Minimal: 0, Maximum: 1) |
 | Solr field | mods_abstract_s |
 | Display label | Description  |
@@ -818,8 +811,7 @@ For TIF, if you are an Archives/Bib Services staff member create a title based o
 |------------|:------------------|
 | Form label | Date taken (free text)            |
 | Field type | Text field      |
-| Help text  | <p>Date the photographer wrote on the assignment envelope, likely on the back. Write this date without punctuation in the following format (including full month): 18 January 1967.</p>
-<p>Sometimes the information is incomplete, in which case, use the date information on the front of the envelope, to supplement the information you have, using square brackets. For more examples, see the <a href="https://digital.library.yorku.ca/content/toronto-telegram-faq" target="_blank">Toronto Telegram FAQ</a>.</p> |
+| Help text  | <p>Date the photographer wrote on the assignment envelope, likely on the back. Write this date without punctuation in the following format (including full month): 18 January 1967.</p> <p>Sometimes the information is incomplete, in which case, use the date information on the front of the envelope, to supplement the information you have, using square brackets. For more examples, see the <a href="https://digital.library.yorku.ca/content/toronto-telegram-faq" target="_blank">Toronto Telegram FAQ</a>.</p> |
 | Obligation | Required (Minimal: 0, Maximum: 1) |
 | Solr field |  |
 | Display label |          |
@@ -939,9 +931,7 @@ For TIF, if you are an Archives/Bib Services staff member create a title based o
 |------------|:------------------|
 | Form label | Format            |
 | Field type | Text field      |
-| Help text  | <p><strong>For PDF</strong>- describe the assignment envelope using the following format: ## photographs : b&w negative ; #.# x #.# cm + 1 envelope : 14.2 x 11 cm</p>
-<p><strong>For TIF</strong>- describe the item using the following format: 1 photograph: b&w negative ; ##.# x ##.# cm. The one exception is when you're scanning 35 mm film, describe as 1 photograph : b&w negative ; 35 mm.</p>
-<p>For more examples, see <a href="https://digital.library.yorku.ca/content/toronto-telegram-faq" target="_blank">Toronto Telegram FAQ</a>.</p> |
+| Help text  | <p><strong>For PDF</strong>- describe the assignment envelope using the following format: ## photographs : b&w negative ; #.# x #.# cm + 1 envelope : 14.2 x 11 cm</p> <p><strong>For TIF</strong>- describe the item using the following format: 1 photograph: b&w negative ; ##.# x ##.# cm. The one exception is when you're scanning 35 mm film, describe as 1 photograph : b&w negative ; 35 mm.</p> <p>For more examples, see <a href="https://digital.library.yorku.ca/content/toronto-telegram-faq" target="_blank">Toronto Telegram FAQ</a>.</p> |
 | Obligation | Optional (Minimal: 0, Maximum: 1) |
 | Solr field |  |
 | Display label |          |
@@ -951,8 +941,7 @@ For TIF, if you are an Archives/Bib Services staff member create a title based o
 |------------|:------------------|
 | Form label | Relation            |
 | Field type | Text field |
-| Help text  | <p><strong>If PDF</strong>, leave blank.</p>
-<p><strong>If TIF</strong>, enter the number (if visible) on the film strip negative. Count the total number of negatives in the assignment (do not rely on what is written on the envelope) and write in the following format One neg (#) scanned out of ## in assignment. (i.e. One neg (5-5A) scanned out of 30 in assignment. For more examples, see <a href="https://digital.library.yorku.ca/content/toronto-telegram-faq" target="_blank">Toronto Telegram FAQ</a>.</p> |
+| Help text  | <p><strong>If PDF</strong>, leave blank.</p> <p><strong>If TIF</strong>, enter the number (if visible) on the film strip negative. Count the total number of negatives in the assignment (do not rely on what is written on the envelope) and write in the following format One neg (#) scanned out of ## in assignment. (i.e. One neg (5-5A) scanned out of 30 in assignment. For more examples, see <a href="https://digital.library.yorku.ca/content/toronto-telegram-faq" target="_blank">Toronto Telegram FAQ</a>.</p> |
 | Obligation | Optional (Minimal: 0, Maximum: 1) |
 | Solr field |  |
 | Display label |          |
@@ -1162,8 +1151,7 @@ For TIF, if you are an Archives/Bib Services staff member create a title based o
 |------------|:-|
 | Form label | Coordinates |
 | Field type | Text field |
-| Help text  | <p>Please put coordinates in decimal format: 43.653333, -79.383889</p><p><strong>DO NOT</strong> use degree format 43°39′12″N 079°23′02″W</p>
-<p>See <a href="https://digital.library.yorku.ca/content/toronto-telegram-faq" target="_blank">Toronto Telegram FAQ</a> for more details.</p> |
+| Help text  | <p>Please put coordinates in decimal format: 43.653333, -79.383889</p><p><strong>DO NOT</strong> use degree format 43°39′12″N 079°23′02″W</p> <p>See <a href="https://digital.library.yorku.ca/content/toronto-telegram-faq" target="_blank">Toronto Telegram FAQ</a> for more details.</p> |
 | Obligation | Optional (Minimal: 0, Maximum: 1) |
 | Solr field | |
 | Display label | |
@@ -1225,8 +1213,7 @@ For TIF, if you are an Archives/Bib Services staff member create a title based o
 |------------|:------------------|
 | Form label | Box number        |
 | Field type | Text field      |
-| Help text  | <p>The number of the box and file that contains the print. Note that there is a space before and after the "/".</p>
-<p><strong>Example:</strong> 1974-002 / 590</p> |
+| Help text  | <p>The number of the box and file that contains the print. Note that there is a space before and after the "/".</p> <p><strong>Example:</strong> 1974-002 / 590</p> |
 | Obligation | Required (Minimal: 0, Maximum: 1)  |
 | Solr field |  |
 | Display label |          |
@@ -1236,8 +1223,7 @@ For TIF, if you are an Archives/Bib Services staff member create a title based o
 |------------|:------------------|
 | Form label | Identifier Other  |
 | Field type | Text field        |
-| Help text  | <<p>Occasionally there will be multiple folders of the same topic. In this case, note which folder this is.</p>
-<p><strong>Example:</strong> Folder 2 of 2.</p> |
+| Help text  | <<p>Occasionally there will be multiple folders of the same topic. In this case, note which folder this is.</p> <p><strong>Example:</strong> Folder 2 of 2.</p> |
 | Obligation | Optional (Minimal: 0, Maximum: 1) |
 | Solr field |  |
 | Display label |          |
@@ -1257,8 +1243,7 @@ For TIF, if you are an Archives/Bib Services staff member create a title based o
 |------------|:------------------|
 | Form label | Title            |
 | Field type | Text area   |
-| Help text  | <p>If you are a Bib Services student enter: [to be supplied]</p>
-<p>If you are an Archives/Bib Services staff member create a title based on the content of the photograph, incorporating any annotations on the reverse of the print, prioritizing captions or clippings pasted in from the printed issue of the Telegram.</p> |
+| Help text  | <p>If you are a Bib Services student enter: [to be supplied]</p> <p>If you are an Archives/Bib Services staff member create a title based on the content of the photograph, incorporating any annotations on the reverse of the print, prioritizing captions or clippings pasted in from the printed issue of the Telegram.</p> |
 | Obligation | Required (Minimal: 0, Maximum: 1) |
 | Solr field |  |
 | Display label |          |
@@ -1368,8 +1353,7 @@ For TIF, if you are an Archives/Bib Services staff member create a title based o
 |------------|:------------------|
 | Form label | Date taken (free text)            |
 | Field type | Text field      |
-| Help text  | <p>Date the photographer wrote on the assignment envelope, likely on the back. Write this date without punctuation in the following format (including full month): 18 January 1967.</p>
-<p>Sometimes the information is incomplete, in which case, use the date information on the front of the envelope, to supplement the information you have, using square brackets. For more examples, see the <a href="https://digital.library.yorku.ca/content/toronto-telegram-faq" target="_blank">Toronto Telegram FAQ</a>.</p> |
+| Help text  | <p>Date the photographer wrote on the assignment envelope, likely on the back. Write this date without punctuation in the following format (including full month): 18 January 1967.</p> <p>Sometimes the information is incomplete, in which case, use the date information on the front of the envelope, to supplement the information you have, using square brackets. For more examples, see the <a href="https://digital.library.yorku.ca/content/toronto-telegram-faq" target="_blank">Toronto Telegram FAQ</a>.</p> |
 | Obligation | Required (Minimal: 0, Maximum: 1) |
 | Solr field |  |
 | Display label |          |
@@ -1379,7 +1363,7 @@ For TIF, if you are an Archives/Bib Services staff member create a title based o
 |------------|:------------------|
 | Form label | Date taken (iso)            |
 | Field type | Text field       |
-| Help text  | This is the date the photograph was taken. Potentially stamped on the verso of the print, or noted in the caption information. Write this date in the following format YYYY-MM-DD (i.e. 1945-01-18). For more examples see the a href="https://digital.library.yorku.ca/content/toronto-telegram-faq" target="_blank">Toronto Telegram FAQ</a>. |
+| Help text  | This is the date the photograph was taken. Potentially stamped on the verso of the print, or noted in the caption information. Write this date in the following format YYYY-MM-DD (i.e. 1945-01-18). For more examples see the <a href="https://digital.library.yorku.ca/content/toronto-telegram-faq" target="_blank">Toronto Telegram FAQ</a>. |
 | Obligation | Required (Minimal: 0, Maximum: 1) |
 | Solr field |  |
 | Display label |          |
@@ -1729,8 +1713,7 @@ For TIF, if you are an Archives/Bib Services staff member create a title based o
 |------------|:-|
 | Form label | Coordinates |
 | Field type | Text field |
-| Help text  | <p>Please put coordinates in decimal format: 43.653333, -79.383889</p><p><strong>DO NOT</strong> use degree format 43°39′12″N 079°23′02″W</p>
-<p>See <a href="https://digital.library.yorku.ca/content/toronto-telegram-faq" target="_blank">Toronto Telegram FAQ</a> for more details.</p> |
+| Help text  | <p>Please put coordinates in decimal format: 43.653333, -79.383889</p><p><strong>DO NOT</strong> use degree format 43°39′12″N 079°23′02″W</p> <p>See <a href="https://digital.library.yorku.ca/content/toronto-telegram-faq" target="_blank">Toronto Telegram FAQ</a> for more details.</p> |
 | Obligation | Optional (Minimal: 0, Maximum: 1) |
 | Solr field | |
 | Display label | |
