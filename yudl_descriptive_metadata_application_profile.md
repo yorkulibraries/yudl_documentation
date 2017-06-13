@@ -314,8 +314,7 @@
 |------------|:-|
 | Form label | Box number |
 | Field type | Text field |
-| Help text  | The number of the box and file that contains the object. Note that there is a space before and after the "/".
-Example: 2007-054 / 025 (17) |
+| Help text  | The number of the box and file that contains the object. Note that there is a space before and after the "/". Example: 2007-054 / 025 (17) |
 | Obligation | Optional (Minimal: 0, Maximum: 1) |
 | Solr field | |
 | Display label | |
@@ -607,8 +606,7 @@ Example: 2007-054 / 025 (17) |
 |------------|:-|
 | Form label | Coordinates |
 | Field type | Text field |
-| Help text  | Please put coordinates in decimal format: 43.653333, -79.383889
-<br/><br/><strong>DO NOT</strong> use degree format 43°39′12″N 079°23′02″W |
+| Help text  | Please put coordinates in decimal format: 43.653333, -79.383889<br/><br/><strong>DO NOT</strong> use degree format 43°39′12″N 079°23′02″W |
 | Obligation | Optional (Minimal: 0, Maximum: 1) |
 | Solr field | |
 | Display label | |
@@ -670,8 +668,7 @@ Example: 2007-054 / 025 (17) |
 |------------|:------------------|
 | Form label | Box number        |
 | Field type | Text field      |
-| Help text  | <p>The number of the box that contains your negative envelope. Note that there is a space before and after the "/".</p>
-<p><strong>Example:</strong> 1974-002 / 095</p> |
+| Help text  | <p>The number of the box that contains your negative envelope. Note that there is a space before and after the "/".</p><p><strong>Example:</strong> 1974-002 / 095</p> |
 | Obligation | Required (Minimal: 0, Maximum: 1)  |
 | Solr field |  |
 | Display label |          |
@@ -1151,7 +1148,7 @@ Example: 2007-054 / 025 (17) |
 |------------|:-|
 | Form label | Coordinates |
 | Field type | Text field |
-| Help text  | <p>Please put coordinates in decimal format: 43.653333, -79.383889</p><p><strong>DO NOT</strong> use degree format 43°39′12″N 079°23′02″W</p> <p>See <a href="https://digital.library.yorku.ca/content/toronto-telegram-faq" target="_blank">Toronto Telegram FAQ</a> for more details.</p> |
+| Help text  | <p>Please put coordinates in decimal format: 43.653333, -79.383889<strong>DO NOT</strong>use degree format 43°39′12″N 079°23′02″W</p> <p>See <a href="https://digital.library.yorku.ca/content/toronto-telegram-faq" target="_blank">Toronto Telegram FAQ</a> for more details.</p> |
 | Obligation | Optional (Minimal: 0, Maximum: 1) |
 | Solr field | |
 | Display label | |
@@ -1223,7 +1220,7 @@ Example: 2007-054 / 025 (17) |
 |------------|:------------------|
 | Form label | Identifier Other  |
 | Field type | Text field        |
-| Help text  | <<p>Occasionally there will be multiple folders of the same topic. In this case, note which folder this is.</p> <p><strong>Example:</strong> Folder 2 of 2.</p> |
+| Help text  | <p>Occasionally there will be multiple folders of the same topic. In this case, note which folder this is.</p> <p><strong>Example:</strong> Folder 2 of 2.</p> |
 | Obligation | Optional (Minimal: 0, Maximum: 1) |
 | Solr field |  |
 | Display label |          |
