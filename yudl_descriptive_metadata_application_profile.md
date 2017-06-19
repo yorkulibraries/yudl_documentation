@@ -1540,27 +1540,18 @@
 |------------|:------------------|
 | Form label | Title            |
 | Field type | Text field      |
-| Help text  | <p>Title proper of the assignment envelope.</p> |
+| Help text  | <p>Title proper of the file folder, as listed in the Telegram finding aid.</p> |
 | Obligation | Optional (Minimal: 0, Maximum: 1) |
 | Solr field |  |
 | Display label |          |
 | Note          |               |
 
-| XPath      | `relatedItem[@type="host"]/identifier[@type='local']` |
-|------------|:------------------|
-| Form label | ASC Number            |
-| Field type | Text field      |
-| Help text  | <p>ASC number of assignment envelope.</p> |
-| Obligation | Optional (Minimal: 0, Maximum: 1) |
-| Solr field |  |
-| Display label |          |
-| Note          |               |
 
 | XPath      | `relatedItem[@type="host"]/identifier[@type='uri']` |
 |------------|:------------------|
 | Form label | Parent URI            |
 | Field type | Text field      |
-| Help text  | <p><strong>If TIF</strong>, enter URI for PDF assignment envelope, i.e. https://digital.library.yorku.ca/islandora/object/yul:372340</p> |
+| Help text  | <p>Enter URI for Toronto Telegram file level uri in finding aid, if it exists (rarely used).</p> |
 | Obligation | Optional (Minimal: 0, Maximum: 1) |
 | Solr field |  |
 | Display label |          |
