@@ -928,7 +928,7 @@
 |------------|:------------------|
 | Form label | Format            |
 | Field type | Text field      |
-| Help text  | <p><strong>For PDF</strong>- describe the assignment envelope using the following format: ## photographs : b&w negative ; #.# x #.# cm + 1 envelope : 14.2 x 11 cm</p> <p><strong>For TIF</strong>- describe the item using the following format: 1 photograph: b&w negative ; ##.# x ##.# cm. The one exception is when you're scanning 35 mm film, describe as 1 photograph : b&w negative ; 35 mm.</p> <p>For more examples, see <a href="https://digital.library.yorku.ca/content/toronto-telegram-faq" target="_blank">Toronto Telegram FAQ</a>.</p> |
+| Help text  | <p><strong>For PDF</strong>- describe the assignment envelope using the following format: ## photographs : b&w negative ; #.# (height) x #.# (width) cm + 1 envelope : 11 x 14.2 cm</p> <p><strong>For TIF</strong>- describe the item using the following format: 1 photograph: b&w negative ; ##.#(height) x ##.# (width) cm. The one exception is when you're scanning 35 mm film, describe as 1 photograph : b&w negative ; 35 mm.</p> <p>For more examples, see <a href="https://digital.library.yorku.ca/content/toronto-telegram-faq" target="_blank">Toronto Telegram FAQ</a>.</p> |
 | Obligation | Optional (Minimal: 0, Maximum: 1) |
 | Solr field |  |
 | Display label |          |
@@ -1470,7 +1470,7 @@
 |------------|:------------------|
 | Form label | Format            |
 | Field type | Text field      |
-| Help text  | Describe the item using the following format: 1 photograph : b&w print ; ##.# x ##.# cm |
+| Help text  | Describe the item using the following format: 1 photograph : b&w print ; ##.# (height) x ##.# (width) cm |
 | Obligation | Optional (Minimal: 0, Maximum: 1) |
 | Solr field |  |
 | Display label |          |
